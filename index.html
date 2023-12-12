@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of SuroviShimu</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/a0432cd8ce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Frontend Developer
+                </p>
+                <h2>Hi, I'm <span>Surovi</span> Yasmin Shimu <br> From Dhaka, Bangladesh</h2>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------about---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/img-2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere doloribus obcaecati ea maxime,
+                        alias tempore soluta cumque deserunt iure, explicabo nobis veritatis repellat sit laudantium
+                        incidunt velit optio! Maxime, quia?
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('tecSkills')">Technical Skills</p>
+                        <p class="tab-links" onclick="opentab('softSkills')">Interpersonal Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="tecSkills">
+                        <ul>
+                            <li>
+                                <span>Expertise</span> <br>React,JavaScript,HTML,CSS,Tailwind CSS,Firebase,daisyUI
+
+                            </li>
+                            <li>
+                                <span>Comfortable With</span> <br>Express.js,MongoDB,JWT,Material-UI
+
+                            </li>
+                            <li>
+                                <span>Familiar With</span> <br>Bootstrap,Node.js,Stripe
+                            </li>
+                            <li>
+                                <span>Tools</span> <br>GitHub,Figma,Netlify,Vercel
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="softSkills">
+                        <ul>
+                            <li>Effective Communication</li>
+                            <li>Team Collaboration</li>
+                            <li>Quick Learner</li>
+                            <li>Adaptability</li>
+                            <li>Time Management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                Bachelor of Computer Science and Engineering <br>
+                                International University of Business Agriculture and Technology (IUBAT) <br>
+                                Duration: 2015-2019
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------services--------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <ul>
+                        <li>Responsive and mobile-friendly website development.</li>
+                        <li>Cross-browser compatibility testing.</li>
+                        <li>Custom website design and development.</li>
+                    </ul>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Version Control and Collaboration</h2>
+                    <ul>
+                        <li>Git version control for code management.</li>
+                        <li>Collaborative development using platforms like GitHub or GitLab.</li>
+                        <li>Code reviews and pull request contributions.</li>
+                    </ul>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <ul>
+                        <li>Proficiency in HTML, CSS, and JavaScript.</li>
+                        <li>Experience with modern frontend frameworks (e.g., React, Vue, Angular).</li>
+                        <li>Responsive web design using frameworks like Bootstrap or Tailwind CSS.</li>
+                    </ul>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------portfolio------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/img-1.JPG" alt="">
+                    <div class="layer">
+                        <h3>Online Beauty Shop Website</h3>
+                        <p>
+                            Indulge in a world where beauty meets sophistication. Orcid Beauty offers seamless
+                            navigation, secure checkout, and an array of diverse products to elevate your beauty
+                            experience with unparalleled ease.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/img-2.JPG" alt="">
+                    <div class="layer">
+                        <h3>Diagnostic Center Management System</h3>
+                        <p>
+                            MedScan Hub website provides user-friendly interfaces for both clients and administrators.
+                            Enjoy convenient Stripe online payment and a hassle-free test search system for a smooth and
+                            efficient experience.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/img-3.JPG" alt="">
+                    <div class="layer">
+                        <h3>Event Management System</h3>
+                        <p>
+                            Elevate your event experience with easy navigation, secure sign-in, and diverse services.
+                            Explore testimonials, share your event requirements, and browse our past events gallery for
+                            inspiration.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/img-4.JPG" alt="">
+                    <div class="layer">
+                        <h3>Online Job search</h3>
+                        <p>
+                            Connects job seekers and employers with a user-friendly platform. Secure authentication,
+                            personalized dashboards, and detailed job postings. Explore top companies, read the blog,
+                            and find FAQs for a streamlined experience.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------contact--------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>surovi.shimu95@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>+880 1879181667</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/surovi-yasmin-shimu-784998188/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/surovishimu"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="image/resume_shimu.pdf" download class="btn btn2">Download Resume</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" onsubmit="submitForm(event)">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Copyright 2023 surovi - All Rights Reserved</p>
+        </div>
+    </div>
+
+    <script>
+        let tablinks = document.getElementsByClassName('tab-links')
+        let tabContents = document.getElementsByClassName('tab-contents')
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link')
+            }
+            for (tabcontent of tabContents) {
+                tabcontent.classList.remove('active-tab')
+            }
+            event.currentTarget.classList.add('active-link')
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+    <script>
+        function submitForm(event) {
+            event.preventDefault();
+
+            document.forms["submit-to-google-sheet"].reset();
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwuIX86yfjDv_AnjI2jW1lMlF2-XUhWjHVZZRz0bVQ7ihxhOrU6b8AlBaJlEkXfctkV/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
